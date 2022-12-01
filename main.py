@@ -1,5 +1,7 @@
 # iniciado em 01/12/2022 12:00
 # https://github.com/Samuel-Batista
+# https://github.com/Samuel-Batista/excelToWordTable
+
 
 # importando blibioteca que cuida de arquivos .xlsx(excel)
 from openpyxl import load_workbook
@@ -53,7 +55,7 @@ while current_cell_codigo_produto.value:
     
     current_name = pegar_nome_em_listagem(current_cell_codigo_produto.value)
 
-    
+
 
 
 
